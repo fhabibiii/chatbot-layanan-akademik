@@ -1,0 +1,868 @@
+{
+    "intents": [
+        {
+            "tag": "Greetings",
+            "patterns": [
+                "Halo!",
+                "Hai!",
+                "assamualaikaum",
+                "p",
+                "?? ??",
+                "Hola",
+                "Permisi",
+                "Halo, ada yang bisa saya bantu?",
+                "Hai, apa kabar?",
+                "Halo, ada yang perlu dibicarakan?",
+                "Hai, ada yang bisa saya bantu hari ini?",
+                "Selamat pagi!",
+                "Selamat siang!",
+                "Selamat sore!",
+                "Selamat malam!",
+                "Hai, apa yang bisa saya lakukan untukmu?",
+                "Halo, bagaimana kabarmu?",
+                "Hai, ada yang bisa saya bantu?",
+                "Halo, apa kabar hari ini?",
+                "Hai, selamat datang! Ada yang bisa saya bantu?"
+            ],
+            "responses": [
+                "Halo! Selamat datang, ada yang bisa saya bantu?",
+                "Hai! Apa kabar? Ada yang bisa saya bantu?",
+                "Halo, selamat datang! Ada yang bisa saya bantu hari ini?",
+                "Hai! Ada yang bisa saya bantu?",
+                "Selamat pagi/siang/sore/malam! Ada yang bisa saya bantu?",
+                "Halo, apa yang bisa saya lakukan untukmu?",
+                "Hai, selamat datang! Bagaimana hari ini?",
+                "Halo! Ada yang bisa saya bantu?",
+                "Hai! Senang bertemu denganmu. Ada yang bisa saya bantu?",
+                "Selamat datang! Apa yang bisa saya lakukan untukmu?",
+                "Halo, bagaimana keadaan hari ini?",
+                "Hai! Ada yang bisa saya bantu?",
+                "Selamat pagi/siang/sore/malam! Ada yang bisa saya bantu hari ini?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "nama",
+                "namamu",
+                "apakah kamu punya nama",
+                "apa panggilanmu",
+                "apa namamu",
+                "apa yang harus saya panggil",
+                "apa namamu?",
+                "apa kamu",
+                "siapa kamu",
+                "ini siapa",
+                "dengan siapa saya mengobrol",
+                "dengan siapa saya berbicara",
+                "siapa nama kamu",
+                "siapa yang sedang chat dengan saya",
+                "nama kamu apa",
+                "siapa ini",
+                "apakah kamu memiliki nama",
+                "bagaimana saya memanggil kamu",
+                "namanya apa",
+                "kamu adalah siapa",
+                "siapa nama panggilan kamu",
+                "tolong tunjukkan namamu",
+                "apa nama yang kau pakai",
+                "dengan siapa aku sedang bicara"
+            ],
+            "responses": [
+                "Saya adalah HelferBot, sebuah nama untuk chatbot ini. 'Helfer' dalam bahasa Jerman berarti 'pembantu' atau 'penolong'. Nama ini mencerminkan peran saya sebagai asisten atau sumber bantuan dalam lingkungan akademik."
+            ]
+        },        
+        {
+            "tag": "Yudisium",
+            "patterns": [
+                "Dimana saya bisa melakukan Pendaftaran Yudisium?",
+                "Bagaimana cara daftar yudisium?",
+                "Link untuk mendaftar yudisium?",
+                "Cara pendaftaran yudisium?",
+                "Mendaftar yudisium dimana?",
+                "Bagaimana pendaftaran Yudisium?",
+                "Apakah ada link untuk pendaftaran Yudisium?",
+                "Dimana saya bisa daftar yudisium?",
+                "Dimana saya bisa registrasi yudisium?",
+                "Cara registrasi yudisium?",
+                "Proses daftar yudisium dimana?"
+            ],
+            "responses": [
+                "Pendaftaran Yudisium dapat dilakukan melalui link berikut https://bit.ly/FIFAjuanPendaftaranYudisium"
+            ]
+        },
+        {
+            "tag": "Persyaratan Yudisium",
+            "patterns": [
+                "Apa saja persyaratan untuk mendaftar sidang Yudisium?",
+                "Syarat-syarat yudisium apa saja?",
+                "Apa saja yang dibutuhkan untuk sidang yudisium?",
+                "Persyaratan mendaftar yudisium?",
+                "Dokumen yang dibutuhkan untuk yudisium?",
+                "Apa persyaratan yudisium?",
+                "Apa saja syarat yudisium?",
+                "Apa saja yang diperlukan untuk yudisium?",
+                "Syarat untuk yudisium apa saja?",
+                "Dokumen untuk yudisium apa saja?"
+            ],
+            "responses": [
+                "Berikut Persyaratan Yudisium:\n-. Bukti Penyelesaian Revisi Tugas Akhir \n-. Laporan TA dilengkapi dengan lembar pengesahan yang sudah ditandatangani Pembimbing dan Kaprodi\n-. Paper TA \n-. Poster TA\n-. Literatur/paper yang digunakan sebagai referensi \n-. File program (readme, source code, EXE, database, dsb),\n-. Data eksperimen\n-. Curriculum Vitae (.DOC dan .PDF) \n-. Surat Bebas Pinjam dari Perpustakaan\n-. Scan Bukti pembayaran wisuda \nUntuk informasi lebih detil bisa diakses melalui link https://bit.ly/FIFDokKelengkapanYudisium"
+            ]
+        },
+        {
+            "tag": "Predikat Cumlaude",
+            "patterns": [
+                "Apa saja syarat untuk predikat Cumlaude (Dengan Pujian)?",
+                "Bagaimana mendapatkan predikat cumlaude?",
+                "Syarat predikat cumlaude apa saja?",
+                "Kriteria cumlaude yudisium?",
+                "Bagaimana predikat cumlaude diberikan?",
+                "Apa persyaratan untuk mendapatkan cumlaude?",
+                "Apa syarat untuk cumlaude?",
+                "Bagaimana cara mendapatkan predikat cumlaude?"
+            ],
+            "responses": [
+                "Berikut syarat untuk mendapatkan predikat Cumlaude(Dengan Pujian):\n-. Masa Studi tidak boleh lebih dari 4 tahun (8 semester)\n-. IPK >= 3,51\n-. Score EPRT minimal 450 (khusu kelas Reguler), minimal 500 (khusus kelas Internasional)\n-. Score ECCT minimal 3.5 (khusus Kelas Internasional)\n-. Mempunyai LoA publikasi karya ilmiah/Sertifikat Lomba\nJika tidak memenuhi ketentuan tersebut maka predikat yudisium akan berubah menjadi \"Sangat Memuaskan\".\nUntuk informasi lebih jelas bisa diakses melalui link https://bit.ly/3fMnrIp."
+            ]
+        },
+        {
+            "tag": "Kehadiran Yudisium",
+            "patterns": [
+                "Apakah mahasiswa perlu hadir pada saat sidang yudisium?",
+                "Haruskah saya hadir saat sidang yudisium?",
+                "Apakah kehadiran diperlukan pada sidang yudisium?",
+                "Perlukah hadir di sidang yudisium?",
+                "Kehadiran mahasiswa saat sidang yudisium?",
+                "Harus hadir di sidang yudisium?"
+            ],
+            "responses": [
+                "Mahasiswa tidak perlu hadir pada saat sidang yudisium berlangsung."
+            ]
+        },
+        {
+            "tag": "Hasil Sidang Yudisium",
+            "patterns": [
+                "Dimana saya bisa melihat hasil Sidang Yudisium?",
+                "Link untuk melihat hasil yudisium?",
+                "Bagaimana cara melihat hasil yudisium?",
+                "Dimana hasil sidang yudisium diumumkan?",
+                "Melihat hasil yudisium dimana?",
+                "Cara melihat hasil yudisium?",
+                "Dimana saya bisa cek hasil yudisium?",
+                "Hasil sidang yudisium dimana?"
+            ],
+            "responses": [
+                "Hasil sidang yudisium dapat dilihat pada link https://soc.telkomuniversity.ac.id/pengumuman-hasil-sidang-akademik-validasi-pendaftar-sidang-dan-yudisium/"
+            ]
+        },
+        {
+            "tag": "Waktu Pendaftaran Yudisium",
+            "patterns": [
+                "Kapan saya bisa mendaftar Yudisium?",
+                "Waktu pendaftaran yudisium?",
+                "Kapan yudisium bisa didaftarkan?",
+                "Pendaftaran yudisium kapan?",
+                "Bagaimana jadwal pendaftaran yudisium?",
+                "Yudisium bisa didaftar kapan?",
+                "Waktu untuk daftar yudisium?"
+            ],
+            "responses": [
+                "Mahasiswa bisa mendaftar yudisium kapan saja dengan syarat sudah melakukan sidang TA dan dinyatakan Lulus. Berikut timeline pendaftaran dan pelaksanaan sidang yudisium https://tel-u.ac.id/eceyw9min2h2gtqtaazj7o92m4d5ek"
+            ]
+        },
+        {
+            "tag": "Yudisium Pending",
+            "patterns": [
+                "Apa yang saya lakukan jika status hasil yudisium saya “PENDING”?",
+                "Yudisium pending apa yang harus dilakukan?",
+                "Status yudisium pending, bagaimana?",
+                "Jika yudisium pending, bagaimana cara menyelesaikannya?",
+                "Yudisium pending apa yang perlu dilengkapi?",
+                "Jika yudisium pending, apa yang harus saya lakukan?"
+            ],
+            "responses": [
+                "Jika hasil yudisium “PENDING”, silahkan untuk melengkapi berkas persyaratan yang tidak lengkap pada https://bit.ly/UnggahBerkasYudisium"
+            ]
+        },
+        {
+            "tag": "Pengajuan Cek Similarity",
+            "patterns": [
+                "Bagaimana cara pengajuan Cek Similarity?",
+                "Cara mengajukan cek similarity?",
+                "Pengajuan similarity bagaimana?",
+                "Bagaimana proses pengajuan cek similarity?",
+                "Dimana pengajuan cek similarity dilakukan?",
+                "Bagaimana cara ajukan cek similarity?",
+                "Langkah-langkah pengajuan cek similarity?"
+            ],
+            "responses": [
+                "Pengajuan Similarity wajib dilakukan secara online dengan mengakses link https://bit.ly/FIFAjuanCekSimilarity"
+            ]
+        },
+        {
+            "tag": "Hasil Cek Similarity",
+            "patterns": [
+                "Dimana saya dapat melihat hasil Cek Similarity?",
+                "Melihat hasil similarity dimana?",
+                "Hasil cek similarity bisa dilihat dimana?",
+                "Cara melihat hasil similarity?",
+                "Hasil similarity cek dimana?",
+                "Cek hasil similarity dimana?"
+            ],
+            "responses": [
+                "Hasil Cek Similarity dapat diunduh pada https://bit.ly/HasilCekSimilarityFIF"
+            ]
+        },
+        {
+            "tag": "Batas Maksimum Similarity",
+            "patterns": [
+                "Berapa batas maksimum score yang akan diterima untuk Sidang Yudisium?",
+                "Score maksimum similarity untuk yudisium?",
+                "Batas maksimum similarity yudisium?",
+                "Berapa maksimum score similarity?",
+                "Score similarity maksimum untuk yudisium?",
+                "Score similarity tertinggi yang diterima untuk yudisium?"
+            ],
+            "responses": [
+                "Batas maksimum untuk Score pengecekan similarity yaitu 20% dan tidak ada kata yang nge-block 16 kata berturut-turut."
+            ]
+        },
+        {
+            "tag": "Similarity Score Lebih dari 20%",
+            "patterns": [
+                "Bagaimana jika score hasil pengecakan similarity saya lebih dari 20%?",
+                "Similarity score lebih dari 20% apa yang harus dilakukan?",
+                "Apa yang harus dilakukan jika similarity score lebih dari 20%?",
+                "Jika similarity score lebih dari 20%, bagaimana?",
+                "Bagaimana cara menurunkan similarity score jika lebih dari 20%?",
+                "Apa yang dilakukan jika similarity score lebih dari 20%?"
+            ],
+            "responses": [
+                "Jika score melebihi 20% atau nge-block 16 kata berturut-turut, maka mahasiswa bisa melakukan pharaprase dan membubuhi sitasi, kemudian hasil perbaikannya diajukan lagi melalui link https://bit.ly/FIFAjuanCekSimilarity untuk dilakukan pengecekan ulang."
+            ]
+        },
+        {
+            "tag": "Status Similarity Rejected",
+            "patterns": [
+                "Bagaimana jika status pengajuan pengecekan similarity saya “REJECT”?",
+                "Status similarity reject, apa yang harus dilakukan?",
+                "Jika similarity ditolak, bagaimana?",
+                "Similarity status reject, apa langkah selanjutnya?",
+                "Apa yang harus dilakukan jika similarity ditolak?",
+                "Similarity reject, bagaimana caranya?"
+            ],
+            "responses": [
+                "Status “REJECT” pada pengecekan similarity dikarenakan file persyaratan pengajuan similarity tidak lengkap, silahkan cek persyaratan dan contoh file pada form https://bit.ly/FIFAjuanCekSimilarity"
+            ]
+        },
+        {
+            "tag": "Kerja Praktek",
+            "patterns": [
+                "Dimana saya bisa mendapatkan informasi tentang Panduan Kerja Praktek?",
+                "Bagaimana cara mendapatkan panduan kerja praktek?",
+                "Panduan kerja praktek bisa diakses dimana?",
+                "Saya butuh panduan kerja praktek",
+                "Informasi panduan kerja praktek dimana?",
+                "Dimana panduan kerja praktek bisa didapatkan?",
+                "Panduan untuk kerja praktek bagaimana caranya?"
+            ],
+            "responses": [
+                "Panduan Kerja Praktek (KP) dapat diakses melalui link https://tel-u.ac.id/p913bzfjuohskt248rn5z-19jvg349 link tersebut berisi rekaman dan slide presentasi."
+            ]
+        },
+        {
+            "tag": "Surat Pengantar Kerja Praktek",
+            "patterns": [
+                "Dimana saya bisa mendapatkan surat pengantar untuk Kerja Praktek?",
+                "Bagaimana cara mendapatkan surat pengantar KP?",
+                "Surat pengantar kerja praktek bisa didapatkan dimana?",
+                "Saya butuh surat pengantar KP",
+                "Dimana mengajukan surat pengantar kerja praktek?",
+                "Bagaimana cara mengajukan surat pengantar KP?",
+                "Surat pengantar KP bagaimana cara mendapatkannya?"
+            ],
+            "responses": [
+                "Untuk mendapatkan surat pengantar KP, mahasiswa dapat mengajukan pembuatan surat pengantar melalui link https://bit.ly/FIFAjuanSuratPengantarKerjaPraktek"
+            ]
+        },
+        {
+            "tag": "Waktu Pelaksanaan Kerja Praktek",
+            "patterns": [
+                "Kapan saya bisa melakukan Kerja Praktek?",
+                "Waktu pelaksanaan kerja praktek kapan?",
+                "Kapan pelaksanaan KP?",
+                "Periode kerja praktek kapan?",
+                "Saya bisa melakukan kerja praktek kapan?",
+                "Kapan bisa melakukan KP?",
+                "Waktu untuk kerja praktek kapan?"
+            ],
+            "responses": [
+                "Periode pelaksanaan KP terdiri dari 2 batch:\nBatch 1: Pelaksanaan kegiatan KP selama masa perkuliahan Semester Genap 2022/2023 ATAU selama masa libur kuliah peralihan Semester Genap 2022/2023 ke Semester Ganjil 2023/2024. Pengambilan SKS KP pada Semester Genap 2022/2023 atau Semester Ganjil 2023/2024.\nBatch 2: Pelaksanaan kegiatan KP selama masa perkuliahan Semester Ganjil 2023/2024. Pengambilan SKS KP pada Semester Ganjil 2023/2024."
+            ]
+        },
+        {
+            "tag": "Dosen Pembimbing Kerja Praktek",
+            "patterns": [
+                "Dimana saya bisa mendapatkan informasi siapa Dosen Pembimbing Kerja Praktek saya?",
+                "Bagaimana cara mengetahui dosen pembimbing KP?",
+                "Informasi dosen pembimbing kerja praktek dimana?",
+                "Dosen pembimbing KP siapa?",
+                "Dimana informasi dosen pembimbing KP?",
+                "Cara mengetahui dosen pembimbing kerja praktek?",
+                "Pembimbing kerja praktek siapa?"
+            ],
+            "responses": [
+                "Informasi mengenai pembimbing KP dapat diakses melalui link https://tel-u.ac.id/m7mk1rsc-tb77rr71aacgiw5runsxg. Jika belum terdaftar pada link tersebut silahkan konfirmasikan ke Prodi masing-masing melalui:\na. Prodi S1 IF https://forms.office.com/r/cUtmdHj5ZV\nb. Prodi S1 IT https://bit.ly/FormPengajuanPembKP_S1IT\nc. Prodi S1 RPL https://bit.ly/FormPengajuanPembKP_S1RPL"
+            ]
+        },
+        {
+            "tag": "Pelaksanaan KP Tidak Sesuai Timeline",
+            "patterns": [
+                "Jika saya melakukan Kerja Praktek di Batch 1 tetapi pelaksanaannya tidak sesuai dengan timeline yang telah ditentukan apakah KP saya tetap bisa diakui dan nilainya bisa keluar?",
+                "Apakah KP saya diakui jika pelaksanaan tidak sesuai timeline?",
+                "Bagaimana jika KP saya tidak sesuai dengan timeline?",
+                "Apakah nilai KP saya bisa keluar jika tidak sesuai timeline?",
+                "KP saya bisa diakui tidak kalau tidak sesuai jadwal?",
+                "Apakah KP saya akan diakui jika tidak sesuai waktu?",
+                "Bagaimana nasib KP saya jika pelaksanaan tidak sesuai timeline?"
+            ],
+            "responses": [
+                "Kegiatan KP masih bisa diakui jika pengambilan SKS KP dilakukan pada semester Ganjil 2324. Batas input nilai KP untuk mahsiswa yang mengambil SKS KP semester Ganjil 2324 adalah PRS Semester Genap 2324."
+            ]
+        },
+        {
+            "tag": "Syarat SK Bimbingan TA",
+            "patterns": [
+                "Apakah syarat mendapatkan SK Bimbingan TA?",
+                "Apa saja syarat untuk mendapatkan SK bimbingan tugas akhir?",
+                "Syarat mendapatkan SK bimbingan TA apa saja?",
+                "Bagaimana cara mendapatkan SK bimbingan TA?",
+                "Apa persyaratan untuk SK bimbingan TA?",
+                "Untuk mendapatkan SK bimbingan TA apa yang harus dilakukan?",
+                "Apa saja persyaratan SK bimbingan TA?"
+            ],
+            "responses": [
+                "Syarat untuk mendapatkan SK Bimbingan TA:\n a. Sudah lulus MK Penulisan Proposal\n b. Sedang mengambil MK Tugas Akhir (melampirkan KSM semester berjalan)\n c. Melampirkan sertifikat EPRT yang masih berlaku"
+            ]
+        },
+        {
+            "tag": "Mendapatkan SK Bimbingan TA",
+            "patterns": [
+                "Dimana saya bisa mendapatkan SK Bimbingan TA?",
+                "Bagaimana cara mendapatkan SK bimbingan TA?",
+                "SK bimbingan TA bisa didapatkan dimana?",
+                "Saya butuh SK bimbingan TA",
+                "Dimana mengajukan SK bimbingan TA?",
+                "Bagaimana cara mengajukan SK bimbingan TA?",
+                "SK bimbingan TA didapatkan dimana?"
+            ],
+            "responses": [
+                "Untuk mendapatkan SK Bimbingan TA, mahasiswa perlu mengajukan permohonan pengajuan SK Bimbingan TA melalui link https://bit.ly/FIFAjuanPenerbitanSKTugasAkhirBaru"
+            ]
+        },
+        {
+            "tag": "Masa Berlaku SK Bimbingan Habis",
+            "patterns": [
+                "SK Bimbingan TA saya yang sebelumnya sudah habis masa berlakunya, apa yang perlu saya lakukan?",
+                "Bagaimana jika SK bimbingan TA saya habis masa berlakunya?",
+                "SK bimbingan TA habis masa berlaku, apa yang harus dilakukan?",
+                "Apa yang dilakukan jika SK bimbingan TA sudah habis masa berlaku?",
+                "Masa berlaku SK bimbingan TA habis, apa langkah selanjutnya?",
+                "Jika SK bimbingan TA sudah tidak berlaku, apa yang dilakukan?",
+                "SK bimbingan TA saya sudah habis, bagaimana caranya?"
+            ],
+            "responses": [
+                "Jika SK sebelumnya sudah habis masa berlakunya, mahasiswa wajib mengajukan perpanjangan SK melalui link https://bit.ly/FIFAjuanPerpanjanganSKTugasAkhir. Perpanjangan SK TA hanya boleh dilakukan maksimal 2x perpanjangan, masing-masing perpanjangan masa berlakunya 3 bulan. Jika SK sudah tidak bisa diperpanjang maka mahasiswa bisa mengajukan penggantian SK."
+            ]
+        },
+        {
+            "tag": "SK Bimbingan Tidak Bisa Diperpanjang",
+            "patterns": [
+                "SK Bimbingan saya sudah tidak bisa diperpanjang karena sudah melakukan perpanjangan sebanyak 2x, apa yang bisa saya lakukan?",
+                "Apa yang dilakukan jika SK bimbingan TA tidak bisa diperpanjang lagi?",
+                "Jika SK bimbingan TA sudah tidak bisa diperpanjang, apa yang harus dilakukan?",
+                "Bagaimana jika SK bimbingan TA tidak bisa diperpanjang?",
+                "SK bimbingan TA sudah tidak bisa diperpanjang lagi, apa langkah selanjutnya?",
+                "Apa yang bisa dilakukan jika SK bimbingan TA tidak bisa diperpanjang?",
+                "SK bimbingan TA tidak bisa diperpanjang lagi, bagaimana caranya?"
+            ],
+            "responses": [
+                "Jika SK sebelumnya sudah tidak bisa diperpanjang lagi (sudah melakukan perpanjangan 2x) maka mahasiswa bisa mengajukan perbaikan/penggantian SK melalui link https://bit.ly/FIFAjuanPenggantianSKTugasAkhir"
+            ]
+        },
+        {
+            "tag": "Perubahan Dosen Pembimbing TA",
+            "patterns": [
+                "Dosen pembimbing TA saya mengalami perubahan, apakah saya perlu perbaikan SK Bimbingan yang sebelumnya?",
+                "Jika dosen pembimbing TA berubah, apakah SK bimbingan perlu diperbaiki?",
+                "Perubahan dosen pembimbing TA, apakah SK bimbingan perlu diubah?",
+                "Apakah SK bimbingan TA perlu diperbaiki jika dosen pembimbing berubah?",
+                "Dosen pembimbing berubah, apa perlu memperbaiki SK bimbingan TA?",
+                "SK bimbingan TA perlu diperbaiki jika dosen pembimbing berubah?",
+                "Pengganti dosen pembimbing TA",
+                "Jika dosen pembimbing berubah, apa yang harus dilakukan dengan SK bimbingan TA?"
+            ],
+            "responses": [
+                "Ya, perlu perbaikan SK. Pengajuan perbaikan SK karena perubahan Dosen Pembimbing bisa dilakukan melalui link https://bit.ly/FIFAjuanPenggantianSKTugasAkhir"
+            ]
+        },
+        {
+            "tag": "Perubahan Judul TA",
+            "patterns": [
+                "Judul TA saya mengalami perubahan, apakah perlu perbaikan SK Bimbingan yang sebelumnya?",
+                "Jika judul TA berubah, apakah SK bimbingan perlu diperbaiki?",
+                "Perubahan judul TA, apakah SK bimbingan perlu diubah?",
+                "Apakah SK bimbingan TA perlu diperbaiki jika judul TA berubah?",
+                "Judul TA berubah, apa perlu memperbaiki SK bimbingan TA?",
+                "SK bimbingan TA perlu diperbaiki jika judul TA berubah?",
+                "Jika judul TA berubah, apa yang harus dilakukan dengan SK bimbingan TA?"
+            ],
+            "responses": [
+                "Ya, perlu perbaikan SK. Pengajuan perbaikan SK karena perubahan judul TA bisa dilakukan melalui link https://bit.ly/FIFAjuanPengantianJudulTugasAkhir"
+            ]
+        },
+        {
+            "tag": "Waktu Sidang TA",
+            "patterns": [
+                "Kapan saya bisa melakukan sidang TA?",
+                "Kapan sidang TA bisa dilakukan?",
+                "Waktu pelaksanaan sidang TA kapan?",
+                "Saya bisa sidang TA kapan?",
+                "Kapan jadwal sidang TA?",
+                "Sidang TA bisa dilakukan kapan?",
+                "Kapan pelaksanaan sidang TA?",
+                "Kapan saya bisa melakukan Sidang Pengganti TA?",
+                "Kapan sidang pengganti TA bisa dilakukan?",
+                "Waktu pelaksanaan sidang pengganti TA kapan?",
+                "Saya bisa sidang pengganti TA kapan?",
+                "Kapan jadwal sidang pengganti TA?",
+                "Sidang pengganti TA bisa dilakukan kapan?",
+                "Kapan pelaksanaan sidang pengganti TA?"
+            ],
+            "responses": [
+                "Periode sidang TA/Pengganti Sidang TA dapat diakses melalui timeline berikut https://tel-u.ac.id/eceyw9min2h2gtqtaazj7o92m4d5ek"
+            ]
+        },
+        {
+            "tag": "Pendaftaran Sidang TA",
+            "patterns": [
+                "Dimana saya bisa mengajukan pendaftaran Sidang TA?",
+                "Bagaimana cara mendaftar sidang TA?",
+                "Pendaftaran sidang TA dimana?",
+                "Saya ingin mendaftar sidang TA, bagaimana caranya?",
+                "Dimana mendaftar sidang TA?",
+                "Cara mendaftar sidang TA bagaimana?",
+                "Dimana saya mendaftarkan sidang TA?",
+                "Bagaimana cara mengajukan pendaftaran Sidang TA?",
+                "Dimana saya bisa mendaftar sidang TA?"
+            ],
+            "responses": [
+                "Pendaftaran Sidang TA dapat dilakukan melalui link berikut https://bit.ly/FIFPendaftaranSidangV2"
+            ]
+        },
+        {
+            "tag": "Jadwal Seminar Internal",
+            "patterns": [
+                "Dimana saya mendapatkan info jadwal seminar internal?",
+                "Bagaimana cara mengetahui jadwal seminar internal?",
+                "Jadwal seminar internal bisa didapatkan dimana?",
+                "Saya butuh info jadwal seminar internal",
+                "Dimana info jadwal seminar internal?",
+                "Bagaimana cara melihat jadwal seminar internal?",
+                "Dimana saya bisa melihat jadwal seminar internal?"
+            ],
+            "responses": [
+                "Info jadwal seminar internal bisa didapatkan di Grup TA Mahasiswa atau telagram Info LAA FIF (t.me/LAAKFIF)"
+            ]
+        },
+        {
+            "tag": "Sertifikat Seminar Internal",
+            "patterns": [
+                "Bagaimana cara mendapatkan sertifikat seminar internal?",
+                "Dimana saya bisa mendapatkan sertifikat seminar internal?",
+                "Sertifikat seminar internal bagaimana cara mendapatkannya?",
+                "Cara mendapatkan sertifikat seminar internal bagaimana?",
+                "Saya butuh sertifikat seminar internal, bagaimana caranya?",
+                "Dimana sertifikat seminar internal bisa didapatkan?",
+                "Bagaimana cara akses sertifikat seminar internal?"
+            ],
+            "responses": [
+                "Sertifikat seminar Internal dapat diakses melalui link bit.ly/SertifikatSeminarInternalFIF-"
+            ]
+        },
+        {
+            "tag": "Aktivasi Mahasiswa",
+            "patterns": [
+                "Status diigracias saya teridentifikasi sebagai mahasiswa Non-Active sehingga tidak bisa melakukan registrasi mata kuliah. Bagaimana cara mengaktifkan status mahasiswa supaya saya bisa melakukan registrasi?",
+                "Saya tidak bisa registrasi mata kuliah karena status diigracias Non-Active, bagaimana cara mengaktifkannya?",
+                "Bagaimana cara mengaktifkan status mahasiswa diigracias yang Non-Active?",
+                "Saya teridentifikasi sebagai mahasiswa Non-Active di diigracias, bagaimana cara mengaktifkannya?",
+                "Status saya Non-Active di diigracias, bagaimana cara mengaktifkan kembali?",
+                "Kenapa saya tidak bisa registrasi mata kuliah karena status Non-Active di diigracias?",
+                "Bagaimana cara mengubah status Non-Active di diigracias agar bisa registrasi mata kuliah?",
+                "Status saya di diigracias Non-Active sehingga tidak bisa registrasi, bagaimana cara mengaktifkannya?"
+            ],
+            "responses": [
+                "Untuk mengaktifkan kembali, mahasiswa dapat melakukan pengajuan AKTIVASI melalui link https://tel-u.ac.id/nh5l6phc2zca2gj8wy4lrp2c51fq83"
+            ]
+        },
+        {
+            "tag": "Dispensasi",
+            "patterns": [
+                "Keluarga dekat saya ada yang meninggal. Apakah saya bisa mendapatkan surat dispensasi?",
+                "Saya sedang menikah. Apakah saya bisa mendapatkan surat dispensasi?",
+                "Saya sedang ibadah Haji dan Umroh. Apakah saya bisa mendapatkan surat dispensasi?",
+                "Bagaimana cara mengajukan surat dispensasi?",
+                "Apa saja syarat untuk mendapatkan surat dispensasi?",
+                "Cara mendapatkan surat dispensasi bagaimana?",
+                "Bagaimana cara mendapatkan surat dispensasi karena keluarga dekat meninggal?",
+                "Apa saja syarat untuk surat dispensasi karena menikah?",
+                "Bagaimana cara mengajukan surat dispensasi karena ibadah Haji dan Umroh?",
+                "Bisakah saya mendapatkan surat dispensasi karena keluarga meninggal?",
+                "Apa syarat untuk mendapatkan surat dispensasi saat menikah?",
+                "Dimana saya bisa mengajukan surat dispensasi untuk ibadah Haji dan Umroh?",
+                "Bagaimana cara memperoleh surat dispensasi?",
+                "Apa saja persyaratan untuk mengajukan surat dispensasi?"
+            ],
+            "responses": [
+                "Untuk pengajuan surat dispensasi bisa menghubungi pak Iwan Kurniawan (No HP +62 812-2173-427) dengan melampirkan bukti surat keterangan meninggal/bukti umroh dan haji/undangan pernikahan."
+            ]
+        },
+        {
+            "tag": "Transkrip Sementara",
+            "patterns": [
+                "Apa yang bisa saya lakukan jika ijazah belum diterbitkan tapi saya perlu mendaftar kuliah lagi?",
+                "Bagaimana cara mendapatkan dokumen sementara jika ijazah saya belum keluar?",
+                "Jika ijazah belum siap, apa yang bisa saya ajukan untuk keperluan pendaftaran kerja?",
+                "Saya perlu ijazah untuk melanjutkan pendidikan tapi belum keluar, apa solusinya?",
+                "Apa alternatif yang bisa saya gunakan jika ijazah belum diterbitkan untuk melamar pekerjaan?",
+                "Ijazah saya belum tersedia, bagaimana cara mendapatkan transkrip sementara?",
+                "Bagaimana cara mengajukan SKL jika ijazah belum ada?",
+                "Apa yang harus dilakukan jika transkrip dan ijazah belum keluar sementara saya butuh untuk studi lanjut?",
+                "Ijazah saya belum keluar, bagaimana cara mendapatkan dokumen sementara?",
+                "Bagaimana cara mengajukan Surat Keterangan Lulus jika ijazah belum siap?",
+                "Saya butuh dokumen pengganti ijazah yang belum terbit untuk keperluan kerja, bagaimana caranya?",
+                "Jika ijazah dan transkrip belum diterima, apa yang bisa saya ajukan sebagai pengganti?",
+                "Apa yang bisa saya lakukan jika ijazah belum ada tapi butuh untuk mendaftar kuliah atau kerja?"
+            ],
+            "responses": [
+                "Jika ijazah dan transkrip belum keluar, mahasiswa bisa mengajukan SKL (Surat Keterangan Lulus) dan Transkrip sementara melalui link https://forms.office.com/r/iNRcxrLtfp"
+            ]
+        },
+        {
+            "tag": "SKL",
+            "patterns": [
+                "Dimana saya bisa mendapatkan file SKL dan transkrip sementara yang sudah saya ajukan?",
+                "Saya sudah meminta SKL dan transkrip sementara, dimana saya bisa mengambilnya?",
+                "Setelah mengajukan SKL dan transkrip sementara, dimana saya bisa mengunduhnya?",
+                "Bagaimana cara mendapatkan SKL dan transkrip sementara yang sudah diajukan?",
+                "Saya sudah mengurus SKL dan transkrip sementara, dimana saya bisa melihat hasilnya?",
+                "Dimana saya bisa melihat SKL dan transkrip sementara yang sudah saya ajukan?",
+                "Setelah permohonan SKL dan transkrip sementara selesai, dimana saya bisa mendapatkannya?",
+                "Bagaimana saya bisa mengakses SKL dan transkrip sementara yang sudah selesai diproses?",
+                "Saya telah mengajukan SKL dan transkrip sementara, dimana saya bisa mengakses dokumennya?",
+                "Setelah pengajuan SKL dan transkrip sementara disetujui, dimana saya bisa mendapatkannya?",
+                "Bagaimana cara mengambil SKL dan transkrip sementara setelah pengajuan?",
+                "Dimana saya bisa mendapatkan SKL dan transkrip sementara setelah diajukan?",
+                "Saya sudah mengajukan SKL dan transkrip sementara, bagaimana cara mengambilnya?",
+                "Dimana saya bisa menemukan SKL dan transkrip sementara yang sudah diproses?"
+            ],
+            "responses": [
+                "Dokumen SKL yang sudah selesai ditandatangani dapat diakses melalui link https://bit.ly/BerkasSKL sedangkan untuk transkrip sementara https://bit.ly/BerkasTranskipSementara"
+            ]
+        },
+        {
+            "tag": "Keringanan Biaya Kuliah",
+            "patterns": [
+                "Kapan batas waktu pengajuan penundaan pembayaran BPP?",
+                "Saya ingin tahu kapan batas akhir pengajuan keringanan biaya kuliah?",
+                "Kapan tenggat pengajuan untuk penundaan atau keringanan pembayaran BPP?",
+                "Batas waktu pengajuan penundaan pembayaran BPP kapan ya?",
+                "Kapan deadline untuk pengajuan keringanan pembayaran BPP?",
+                "Kapan saya bisa mengajukan penundaan pembayaran biaya kuliah?",
+                "Apa batas akhir untuk mengajukan penundaan pembayaran BPP?",
+                "Batas waktu untuk pengajuan keringanan biaya kuliah kapan?",
+                "Kapan saya harus mengajukan keringanan pembayaran BPP?",
+                "Kapan tenggat waktu pengajuan penundaan atau keringanan pembayaran biaya kuliah?",
+                "Saya butuh informasi kapan batas pengajuan penundaan pembayaran BPP?",
+                "Kapan waktu terakhir untuk mengajukan penundaan pembayaran BPP?",
+                "Batas pengajuan keringanan biaya kuliah sampai kapan?",
+                "Kapan batas pengajuan untuk keringanan pembayaran biaya kuliah?",
+                "Saya ingin tahu kapan batas pengajuan penundaan pembayaran BPP?",
+                "Kapan saya bisa mengajukan keringanan pembayaran biaya kuliah?"
+            ],
+            "responses": [
+                "Batas pengajuan penundaan/keringanan pembayaran BPP disesuaikan dengan batas PRS (Perubahan Rencana Studi) semester berjalan."
+            ]
+        },
+        {
+            "tag": "Pengajuan Cuti",
+            "patterns": [
+                "Bagaimana cara mengajukan cuti perkuliahan semester ini?",
+                "Saya berencana cuti kuliah, bagaimana prosedurnya?",
+                "Apa langkah-langkah untuk mengajukan cuti akademik?",
+                "Apa yang harus dilakukan untuk cuti semester ini?",
+                "Cara mengajukan cuti akademik semester ini bagaimana?",
+                "Bagaimana saya bisa mengajukan cuti kuliah?",
+                "Saya ingin cuti kuliah semester ini, apa prosedurnya?",
+                "Bagaimana prosedur pengajuan cuti kuliah?",
+                "Langkah-langkah untuk mengajukan cuti akademik apa saja?",
+                "Bagaimana proses mengajukan cuti perkuliahan?"
+            ],
+            "responses": [
+                "Berikut adalah tahapan pengajuan cuti akademik oleh mahasiswa:\n1. Akses iGracias.\n2. Pilih menu Registrasi.\n3. Pilih menu Pengajuan Cuti Mahasiswa.\n4. Pilih Semester (semester berjalan).\n5. Input data dan unggah dokumen kelengkapan cuti.\n6. Klik submit.\n7. Setelah submit, pada ajuan cuti mahasiswa di ujung kanan ada icon printer untuk cetak form cuti, kemudian lengkapi form cuti tersebut.\n8. Setelah lengkap, pada ajuan cuti mahasiswa, di bagian ujung kanan ada icon pinsil untuk unggah form cuti.\n9. Konfirmasi kepada dosen wali untuk menginformasikan ajuan cuti untuk melalkukan approval.\n10. Membayar 10% BPP sesuai tahapan yang diinformasikan di https://finance.telkomuniversity.ac.id/kb/faq/tata-cara-pembayaran-cuti-bpp-tel-u-care-denda-wisuda-legalisir-dan-cetak-ulang-ktm/\nSelanjutnya form cuti asli yang sudah ditandatangani bisa dikirim ke LAAK FIF (boleh via jasa ekspedisi) dengan alamat:\nLAAF Fakultas Informatika - Universitas Telkom (up. Iwan K)\nTelkom University Landmark Tower (TULT) Lt.1 Jl. Telekomunikasi No. 1, Terusan Buahbatu, Bojongsoang Bandung 40257, Indonesia"
+            ]
+        },
+        {
+            "tag": "Batas Pengajuan Cuti",
+            "patterns": [
+                "Kapan batas waktu untuk mengajukan cuti kuliah?",
+                "Saya ingin tahu batas akhir pengajuan cuti akademik?",
+                "Kapan deadline pengajuan cuti semester ini?",
+                "Batas akhir pengajuan cuti perkuliahan kapan ya?",
+                "Kapan tenggat pengajuan cuti kuliah?",
+                "Kapan saya harus mengajukan cuti perkuliahan?",
+                "Apa batas akhir untuk mengajukan cuti akademik?",
+                "Batas waktu untuk pengajuan cuti kuliah kapan?",
+                "Kapan saya bisa mengajukan cuti perkuliahan?",
+                "Kapan tenggat waktu pengajuan cuti akademik?",
+                "Saya butuh informasi kapan batas pengajuan cuti kuliah?",
+                "Kapan waktu terakhir untuk mengajukan cuti perkuliahan?",
+                "Batas pengajuan cuti akademik sampai kapan?",
+                "Kapan batas pengajuan untuk cuti perkuliahan?",
+                "Saya ingin tahu kapan batas pengajuan cuti kuliah?",
+                "Kapan saya bisa mengajukan cuti akademik?"
+            ],
+            "responses": [
+                "Batas pengajuan cuti akademik disesuaikan dengan batas PRS (Perubahan Rencana Studi) semester berjalan."
+            ]
+        },
+        {
+            "tag": "Jumlah Cuti",
+            "patterns": [
+                "Berapa kali boleh mengajukan cuti selama masa studi?",
+                "Berapa maksimal pengajuan cuti selama kuliah?",
+                "Berapa banyak cuti yang diperbolehkan selama masa studi?",
+                "Berapa kali saya bisa cuti selama kuliah?",
+                "Berapa maksimal cuti yang bisa diajukan selama studi?",
+                "Berapa kali saya dapat mengajukan cuti selama kuliah?",
+                "Berapa kali maksimal cuti yang diperbolehkan selama masa studi?",
+                "Berapa banyak saya bisa cuti selama masa studi?",
+                "Berapa kali boleh mengambil cuti selama kuliah?",
+                "Berapa maksimal cuti yang bisa diambil selama masa studi?",
+                "Berapa kali saya boleh mengajukan cuti akademik?",
+                "Berapa maksimal pengajuan cuti yang diizinkan selama kuliah?",
+                "Berapa kali saya dapat mengajukan cuti perkuliahan?",
+                "Berapa banyak cuti yang bisa diajukan selama masa studi?",
+                "Berapa kali cuti yang diperbolehkan selama kuliah?",
+                "Berapa maksimal cuti akademik yang bisa diambil selama studi?"
+            ],
+            "responses": [
+                "Maksimal cuti selama masa studi adalah 2x tetapi tidak boleh diambil selama 2 semester berturut-turut."
+            ]
+        },
+        {
+            "tag": "Pengajuan Undur Diri",
+            "patterns": [
+                "Saya ingin mengundurkan diri dari Universitas Telkom, bagaimana prosedurnya?",
+                "Bagaimana cara mengajukan permohonan undur diri dari kuliah?",
+                "Langkah-langkah untuk mengajukan undur diri dari Universitas Telkom apa saja?",
+                "Bagaimana proses pengunduran diri dari Universitas Telkom?",
+                "Saya mau undur diri dari kuliah, apa yang harus saya lakukan?",
+                "Cara mengajukan undur diri dari kuliah bagaimana?",
+                "Prosedur pengajuan undur diri dari Universitas Telkom apa saja?",
+                "Langkah-langkah mengundurkan diri dari universitas bagaimana?",
+                "Bagaimana cara saya bisa mengundurkan diri dari kampus?",
+                "Proses pengajuan undur diri dari kuliah bagaimana?"
+            ],
+            "responses": [
+                "Berikut ini adalah tahapan pengajuan untuk pengajuan Undur Diri oleh mahasiswa:\n1. Akses iGracias.\n2. Pilih menu Registrasi.\n3. Pilih menu Undur Diri Mahasiswa.\n4. Pilih Semester (semester berjalan).\n5. Input data dan unggah dokumen kelengkapan undur diri.\n6. Klik submit.\n7. Setelah submit, pada ajuan undur diri mahasiswa di ujung kanan ada icon printer untuk cetak form Undur Diri, kemudian lengkapi form tersebut.\n8. Setelah lengkap, pada ajuan undur diri mahasiswa di ujung kanan ada icon pensil untuk unggah form Undur Diri.\n9. Konfirmasi kepada dosen wali untuk menginformasikan ajuan undur diri untuk melakukan approval pengajuan undur diri.\nSelanjutnya form undur diri asli yang sudah ditandatangani bisa dikirim ke LAAK FIF (boleh via jasa ekspedisi) dengan alamat:\nLAAF Fakultas Informatika - Universitas Telkom (up. Iwan K)\nTelkom University Landmark Tower (TULT) Lt.1\nJl. Telekomunikasi No. 1,\nTerusan Buahbatu, Bojongsoang\nBandung 40257, Indonesia"
+            ]
+        },
+        {
+            "tag": "Batas Pengajuan Undur Diri",
+            "patterns": [
+                "Kapan batas waktu untuk mengajukan undur diri dari kampus?",
+                "Batas akhir pengajuan undur diri dari universitas kapan ya?",
+                "Kapan deadline pengajuan undur diri dari Universitas Telkom?",
+                "Kapan tenggat waktu pengajuan undur diri dari kuliah?",
+                "Batas pengajuan undur diri dari universitas kapan?",
+                "Kapan saya bisa mengajukan undur diri dari kuliah?",
+                "Kapan batas akhir untuk mengajukan undur diri dari Universitas Telkom?",
+                "Batas waktu pengajuan undur diri dari kampus kapan?",
+                "Kapan saya harus mengajukan undur diri dari universitas?",
+                "Apa tenggat waktu untuk mengajukan undur diri dari kampus?"
+            ],
+            "responses": [
+                "Batas pengajuan undur diri disesuaikan dengan batas PRS (Perubahan Rencana Studi) semester berjalan."
+            ]
+        },
+        {
+            "tag": "Kalender_Akademik",
+            "patterns": [
+                "Dimana saya bisa mendapatkan jadwal kegiatan akademik?",
+                "Bagaimana cara mengetahui kegiatan akademik?",
+                "Informasi tentang kegiatan akademik dapat ditemukan dimana?",
+                "Tempat untuk melihat jadwal akademik dimana?",
+                "Dapatkah saya mengetahui jadwal akademik di suatu tempat?",
+                "Link untuk melihat kegiatan akademik?",
+                "Apakah ada tempat untuk mengetahui kegiatan akademik?",
+                "Dimana saya bisa menemukan kalender akademik?",
+                "Cara mendapatkan informasi kegiatan akademik?",
+                "Dimana saya bisa mengakses jadwal akademik?",
+                "Bagaimana cara mendapatkan kalender akademik?",
+                "Dimana saya bisa mencari jadwal kegiatan akademik?",
+                "Apakah ada website untuk melihat kalender akademik?",
+                "Dimana kalender akademik bisa diakses?",
+                "Cara melihat kalender akademik Universitas Telkom?",
+                "Bagaimana saya bisa menemukan kalender akademik?",
+                "Dimana saya bisa melihat jadwal akademik Universitas Telkom?",
+                "Kalender akademik bisa ditemukan dimana?",
+                "Website untuk kalender akademik dimana?",
+                "Bagaimana cara mencari informasi kalender akademik?",
+                "Apakah ada link untuk kalender akademik?",
+                "Dimana saya bisa menemukan informasi tentang kegiatan akademik?",
+                "Dimana saya bisa mengetahui jadwal kegiatan akademik?",
+                "Tempat untuk mengetahui kegiatan akademik dimana?",
+                "Bagaimana cara mengakses kalender akademik?"
+            ],
+            "responses": [
+                "Kegiatan akademik bisa dilihat pada kalender akademik Universitas Telkom yang dapat diakses melalui link https://baa.telkomuniversity.ac.id/kalender-akademik-2-2/"
+            ]
+        },
+        {
+            "tag": "Pedoman_Akademik",
+            "patterns": [
+                "Dimana saya bisa mendapatkan informasi tentang pedoman akademik Universitas Telkom?",
+                "Bagaimana cara mencari pedoman akademik Universitas Telkom?",
+                "Link untuk mengakses pedoman akademik Universitas Telkom?",
+                "Tempat untuk menemukan pedoman akademik Universitas Telkom?",
+                "Informasi tentang pedoman akademik Universitas Telkom dapat ditemukan dimana?",
+                "Apakah ada link untuk pedoman akademik Universitas Telkom?",
+                "Dimana saya bisa mencari pedoman akademik Universitas Telkom?",
+                "Bagaimana saya bisa mengakses pedoman akademik Universitas Telkom?",
+                "Pedoman akademik Universitas Telkom bisa ditemukan dimana?",
+                "Bagaimana cara mengetahui pedoman akademik Universitas Telkom?",
+                "Dimana saya bisa menemukan pedoman akademik Universitas Telkom?",
+                "Cara mendapatkan pedoman akademik Universitas Telkom?",
+                "Apakah ada website untuk pedoman akademik Universitas Telkom?",
+                "Dimana pedoman akademik Universitas Telkom bisa diakses?",
+                "Bagaimana cara mengakses pedoman akademik Universitas Telkom?",
+                "Tempat untuk mencari pedoman akademik Universitas Telkom dimana?",
+                "Dapatkah saya mengetahui pedoman akademik Universitas Telkom di suatu tempat?",
+                "Dimana saya bisa melihat pedoman akademik Universitas Telkom?",
+                "Bagaimana saya bisa menemukan informasi tentang pedoman akademik Universitas Telkom?",
+                "Dimana saya bisa mendapatkan pedoman akademik Universitas Telkom?",
+                "Cara mengakses pedoman akademik Universitas Telkom dimana?",
+                "Informasi pedoman akademik Universitas Telkom dapat ditemukan dimana?",
+                "Dimana saya bisa menemukan link pedoman akademik Universitas Telkom?",
+                "Apakah ada informasi tentang pedoman akademik Universitas Telkom?"
+            ],
+            "responses": [
+                "Pedoman akademik Universitas Telkom dapat diakses melalui link https://baa.telkomuniversity.ac.id/pedoman-akademik-universitas-telkom/"
+            ]
+        },
+        {
+            "tag": "Ijazah",
+            "patterns": [
+                "Dimana saya bisa mendapatkan informasi terkait ijazah dan transkrip digital?",
+                "Bagaimana cara mengetahui informasi tentang ijazah dan transkrip digital?",
+                "Informasi tentang ijazah dan transkrip digital bisa ditemukan dimana?",
+                "Dimana saya bisa mencari informasi terkait ijazah dan transkrip digital?",
+                "Link untuk melihat informasi tentang ijazah dan transkrip digital?",
+                "Apakah ada informasi mengenai ijazah dan transkrip digital?",
+                "Dimana saya bisa mengetahui tentang ijazah dan transkrip digital?",
+                "Bagaimana cara mengakses informasi terkait ijazah dan transkrip digital?",
+                "Dimana saya bisa menemukan informasi mengenai ijazah dan transkrip digital?",
+                "Cara mendapatkan informasi tentang ijazah dan transkrip digital?",
+                "Dimana saya bisa mencari informasi terkait ijazah dan transkrip digital?",
+                "Apakah ada website untuk informasi ijazah dan transkrip digital?",
+                "Informasi tentang ijazah dan transkrip digital bisa ditemukan dimana?",
+                "Dimana saya bisa mencari informasi terkait ijazah dan transkrip digital?",
+                "Bagaimana cara mendapatkan informasi mengenai ijazah dan transkrip digital?",
+                "Tempat untuk mencari informasi terkait ijazah dan transkrip digital dimana?",
+                "Dapatkah saya mengetahui informasi terkait ijazah dan transkrip digital?",
+                "Bagaimana saya bisa menemukan informasi tentang ijazah dan transkrip digital?",
+                "Dimana saya bisa mengakses informasi terkait ijazah dan transkrip digital?",
+                "Cara mengakses informasi tentang ijazah dan transkrip digital dimana?",
+                "Dimana saya bisa menemukan link informasi tentang ijazah dan transkrip digital?",
+                "Apakah ada informasi mengenai ijazah dan transkrip digital yang bisa diakses?"
+            ],
+            "responses": [
+                "Informasi mengenai ijazah dan transkrip digital bisa diakses melalui link https://basila.telkomuniversity.ac.id/landing_page/index.php/LandingPage/faq"
+            ]
+        },
+        {
+            "tag": "Transkrip_Digital",
+            "patterns": [
+                "Foto yang saya upload di Basila belum diapprove, apa yang harus saya lakukan?",
+                "Bagaimana jika foto saya belum diapprove di Basila?",
+                "Foto saya belum disetujui di Basila, apa langkah selanjutnya?",
+                "Mengapa foto yang saya upload di Basila belum diapprove?",
+                "Apa yang perlu dilakukan jika foto di Basila belum diapprove?",
+                "Foto di Basila belum diapprove, apa yang harus saya lakukan?",
+                "Kenapa foto saya belum disetujui di aplikasi Basila?",
+                "Apa yang harus saya lakukan jika foto di Basila belum disetujui?",
+                "Langkah apa yang harus diambil jika foto belum diapprove di Basila?",
+                "Foto belum diapprove di Basila, apa yang perlu saya lakukan?",
+                "Bagaimana cara mendapatkan approval untuk foto di Basila?",
+                "Apa yang harus saya lakukan agar foto di Basila diapprove?",
+                "Jika foto di Basila belum diapprove, apa yang harus saya lakukan?",
+                "Mengapa foto di Basila belum diapprove dan bagaimana solusinya?",
+                "Foto saya belum diapprove di Basila, apa yang perlu saya lakukan?",
+                "Apa yang harus saya lakukan untuk mendapatkan approval foto di Basila?",
+                "Bagaimana jika foto di Basila belum mendapat persetujuan?",
+                "Foto di Basila belum diapprove, apa langkah yang harus diambil?",
+                "Apa solusi jika foto di Basila belum diapprove?",
+                "Bagaimana cara mengatasi foto yang belum diapprove di Basila?",
+                "Mengapa foto yang saya upload belum diapprove di Basila?",
+                "Apa langkah selanjutnya jika foto di Basila belum diapprove?",
+                "Kenapa foto di Basila belum disetujui dan apa yang harus dilakukan?",
+                "Apa yang harus dilakukan jika foto belum diapprove di aplikasi Basila?",
+                "Bagaimana mendapatkan persetujuan foto di Basila?"
+            ],
+            "responses": [
+                "Silahkan kontak dosen wali untuk approval foto ijazah dan transkrip di Basila."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "terima kasih",
+                "makasih ya",
+                "makasih",
+                "makasih jawabannya",
+                "mantap",
+                "tepat",
+                "siap",
+                "matur nuwun",
+                "terima kasih banyak",
+                "Thanks",
+                "Thank you",
+                "Itu membantu",
+                "Luar biasa, terima kasih",
+                "Terima kasih telah membantu saya",
+                "Ok, terima kasih",
+                "terimakasih",
+                "thq",
+                "dah",
+                "sampai jumpa",
+                "selamat tinggal",
+                "sampai nanti",
+                "saya pergi dulu",
+                "dah dulu ya",
+                "mau pamit dulu",
+                "waktu untuk pergi",
+                "sudah waktunya saya pergi",
+                "akhir sesi untuk hari ini",
+                "gtg",
+                "oke"
+            ],
+            "responses": [
+                "Terima kasih telah mengobrol dengan saya! Semoga hari Anda menyenangkan.",
+                "Sampai jumpa! Jangan ragu untuk kembali jika Anda membutuhkan bantuan lagi.",
+                "Selamat tinggal! Semoga harimu menyenangkan dan sukses selalu!"
+            ]
+        }        
+    ]
+}
