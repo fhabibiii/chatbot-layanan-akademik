@@ -1,20 +1,32 @@
 from flask import Flask, render_template, request
 import json
 import random
+import os
 from transformers import pipeline, BertForSequenceClassification, BertTokenizerFast
 
-# Load Model
-model_path = "C:/Users/Admin/Music/TugasAkhir/Program/chatbot"
+app = Flask(__name__)
+
+# Ambil nilai dari environment variable MODEL_PATH atau gunakan default jika tidak ada
+model_path = os.getenv('MODEL_PATH', 'chatbot')
+
 model = BertForSequenceClassification.from_pretrained(model_path)
 tokenizer= BertTokenizerFast.from_pretrained(model_path)
 chatbot= pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
 
 # Load Dataset
 def load_json_file(filename):
-    with open(filename, encoding='utf-8') as f:
+    # Dapatkan direktori dari script yang sedang berjalan
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Bangun path absolut ke file JSON
+    json_path = os.path.join(base_dir, 'dataset', filename)
+
+    with open(json_path, encoding='utf-8') as f:
         file = json.load(f)
     return file
-filename = 'C:/Users/Admin/Music/TugasAkhir/Program/Dataset/intents_LAA.json'
+
+# Ubah nama file ke 'intents_LAA.json'
+filename = 'intents_LAA.json'
 intents = load_json_file(filename)
 
 # Create a mapping from label names to numerical IDs for classification
@@ -63,7 +75,6 @@ label2id = {'Greetings': 0,
  'Transkrip_Digital': 42,
  'goodbye': 43}
 
-app = Flask(__name__)
 @app.route("/")
 def index():
     return render_template("index.html")
